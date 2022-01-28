@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.text {
+  margin-right: 5px;
+}
+
+.btn {
+  font-weight: 700;
+  color: rgb(231, 10, 10);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgb(179, 199, 64);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: rgb(53, 167, 110);
+}
+
+.btn:active {
+  background: rgb(33, 147, 90);
+}

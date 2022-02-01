@@ -1,0 +1,47 @@
+.form {
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.phoneBookWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  background-color: #2196f3;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.img {
+  width: 320px;
+  height: auto;
+}
+.thumb {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}

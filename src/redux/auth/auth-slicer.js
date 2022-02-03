@@ -29,7 +29,6 @@ const authSlice = createSlice({
     },
     [fetchCurrentUser.pending](state, action) {
       state.isFetchingCurrentUser = true;
-      // state.token = action.payload.token;
     },
 
     [fetchCurrentUser.fulfilled](state, action) {

@@ -13,6 +13,13 @@ import {
   REGISTER,
 } from 'redux-persist';
 
+// const middleware = {
+//   serializableCheck: {
+//       ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
+//     },
+
+// }
+
 const middleware = [
   ...getDefaultMiddleware({
     serializableCheck: {
